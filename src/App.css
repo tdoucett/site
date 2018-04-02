@@ -1,5 +1,20 @@
+/* Core CSS */
+
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 18vw;
+  margin-right: 18vw;
+  margin-top: 40vh;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+  }
 }
 
 .App-logo {
@@ -31,11 +46,11 @@ body {
   font-family: avenir;
 }
 
-.landing {
-  text-align: left;
-  margin-left: 18%;
-  margin-top: 21vh;
-}
+/* End of Core CSS */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Landing Component */
 
 .header {
   font-size: 3.5rem;
@@ -45,3 +60,70 @@ body {
 .description {
   padding-bottom: 1rem;
 }
+
+/* End of Landing Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Experience Component */
+
+.experience {
+   margin-top: 10rem;
+ }
+
+@media (max-width: 768px) {
+  .experience {
+    margin-top: 5rem;
+  }
+}
+
+/* End of Experience Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Experience Component */
+
+.job {
+  border: 1px solid black;
+}
+
+.company {
+  margin-left: 1rem;
+}
+
+.position {
+  margin-left: 1rem;
+}
+
+.jobDescription {
+  margin-left: 1rem;
+}
+
+/* End of Job Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Projects Component */
+
+.project {
+  border: 1px solid black;
+}
+
+.projectName {
+  margin-left: 1rem;
+}
+
+.oneLiner {
+  margin-left: 1rem;
+}
+
+.projectDescription {
+  margin-left: 1rem;
+}
+
+/* End of Projects Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
