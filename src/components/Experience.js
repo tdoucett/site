@@ -5,7 +5,33 @@ class Experience extends Component {
 
     constructor() {
         super();
-        this.state = { jobs: [{uuid: 1, company: 'hitplay', time: 'Jan 2018 - Apr 2018', position: 'Product Manager', description: 'Crafted hitplay.care'}] }
+        this.state = { jobs:
+            [
+                {
+                    uuid: 1,
+                    company: 'hitplay',
+                    time: 'Jan 2018 - Apr 2018',
+                    position: 'Product Manager',
+                    description: 'Pushed the development of an online platform aimed at reducing the speed to resolution' +
+                    ' for technical issues in corporate AV environments with a specific focus on meeting room technology.'
+                },
+                {
+                    uuid: 2,
+                    company: 'RBC',
+                    time: 'May 2017 - Aug 2017',
+                    position: 'Software Project Manager',
+                    description: 'Developed a proof of concept for the use of deep neural networks to identify online banking' +
+                    ' users with the goal of reducing fraudulent online banking transactions.'
+                },
+                {
+                    uuid: 3,
+                    company: 'The Steele Group Financial',
+                    time: 'Sep 2016 - Dec 2016',
+                    position: 'Full Stack Developer',
+                    description: 'Developed modules for a business management platform.'
+                }
+            ]
+        }
     }
 
     render() {
