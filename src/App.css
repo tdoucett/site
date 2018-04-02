@@ -13,7 +13,7 @@
     text-align: left;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 }
 
@@ -61,6 +61,14 @@ body {
   padding-bottom: 1rem;
 }
 
+.socialIcons {
+   margin-top: 0.5rem;
+ }
+
+.socialIcons svg {
+  margin-right: 0.5rem;
+}
+
 /* End of Landing Component */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -85,23 +93,33 @@ body {
 
 .job {
   border: 1px solid black;
+  border-top: 3px solid #f04;
   margin-bottom: 2rem;
+}
+
+.jobHeader {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .time {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .company {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .position {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .jobDescription {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* End of Job Component */
@@ -112,18 +130,23 @@ body {
 
 .project {
   border: 1px solid black;
+  border-top: 3px solid #f04;
+  margin-bottom: 2rem;
 }
 
 .projectName {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .oneLiner {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .projectDescription {
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* End of Projects Component */

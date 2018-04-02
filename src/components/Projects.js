@@ -5,7 +5,8 @@ class Projects extends Component {
     constructor() {
         super();
         this.state = { projects: [{uuid: 1, name: 'bump Music', oneLiner: 'Real-time playlist for Bars & Clubs',
-            description: 'Bump Music is an interactive mobile website that lets you vote on upcoming music at your favorite restaurant/bar!'
+            description: 'Bump Music is an interactive mobile website that lets you vote on upcoming music at your favorite restaurant/bar!',
+            photo: '../images/bump.png'
         }] }
     }
 
