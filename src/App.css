@@ -129,7 +129,6 @@ body {
 /* Projects Component */
 
 .project {
-  border: 1px solid black;
   border-top: 3px solid #f04;
   margin-bottom: 2rem;
 }
@@ -147,6 +146,20 @@ body {
 .projectDescription {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.projectImgLeft {
+  height: 15rem;
+  float:left;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.projectImgRight {
+  height: 15rem;
+  float:right;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 /* End of Projects Component */
