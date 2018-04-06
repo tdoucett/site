@@ -6,17 +6,18 @@ class Projects extends Component {
     constructor() {
         super();
         this.state = { projects: [{uuid: 1, name: 'bump Music', oneLiner: 'Real-time Playlist for Bars & Clubs',
-            description: 'Bump Music is an interactive mobile website that lets you vote on upcoming music at your favorite restaurant/bar!' +
-            ' Check it out at bumpmusic.co or read the case study below.',
+            description: 'Bump Music is a react app I created that lets users vote on upcoming music at your favorite restaurant/bar!' +
+            ' It also allows bars to build playlists and stream music directly from the app! Check it out live or read my case study below.',
             photo: bump,
-            link: 'bump'
+            productionLink: 'https://www.bumpmusic.co',
+            caseStudyLink: 'bump'
         }] }
     }
 
     render() {
         return (
             <div className="projects">
-                <h1>Projects</h1>
+                <h1>My Products</h1>
                 { this.state.projects.map((project) => {
                     return (
                         <Project {...project} key={project.uuid} />

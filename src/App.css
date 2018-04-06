@@ -122,6 +122,11 @@ body {
   margin-right: 1rem;
 }
 
+.jobButton {
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* End of Job Component */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -129,6 +134,7 @@ body {
 /* Projects Component */
 
 .project {
+  border: 1px solid black;
   border-top: 3px solid #f04;
   margin-bottom: 2rem;
 }
@@ -149,17 +155,34 @@ body {
 }
 
 .projectImgLeft {
-  height: 15rem;
+  height: 13rem;
   float:left;
   padding-top: 1rem;
   padding-right: 1rem;
+  margin-left: 1rem;
 }
 
 .projectImgRight {
-  height: 15rem;
+  height: 13rem;
   float:right;
   padding-top: 1rem;
   padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+.projectButtons {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+}
+
+.liveButton {
+  float: left;
+}
+
+.caseStudyButton {
+  float: left;
+  margin-left: 1rem;
 }
 
 /* End of Projects Component */

@@ -10,6 +10,7 @@ class Experience extends Component {
                 {
                     uuid: 1,
                     company: 'hitplay',
+                    jobStudyLink: 'hitplay',
                     time: 'Jan 2018 - Apr 2018',
                     position: 'Product Manager',
                     description: 'Pushed the development of an online platform aimed at reducing the speed to resolution' +
@@ -18,6 +19,7 @@ class Experience extends Component {
                 {
                     uuid: 2,
                     company: 'RBC',
+                    jobStudyLink: 'rbc',
                     time: 'May 2017 - Aug 2017',
                     position: 'Software Project Manager',
                     description: 'Developed a proof of concept for the use of deep neural networks to identify online banking' +
@@ -26,6 +28,7 @@ class Experience extends Component {
                 {
                     uuid: 3,
                     company: 'The Steele Group Financial',
+                    jobStudyLink: 'sgf',
                     time: 'Sep 2016 - Dec 2016',
                     position: 'Full Stack Developer',
                     description: 'Developed modules for a business management platform.'
@@ -37,7 +40,7 @@ class Experience extends Component {
     render() {
         return (
             <div className="experience">
-                <h1>Experience</h1>
+                <h1>My Experience</h1>
                 { this.state.jobs.map((job) => {
                     return (
                         <Job {...job} key={job.uuid} />

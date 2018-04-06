@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
+import RaisedButton from 'material-ui/RaisedButton';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class Job extends Component {
     render() {
         return (
-            <div className="job">
-                <h4 className="time">{this.props.time}</h4>
-                <hr className="jobHeader"/>
-                <h3 className="company">{this.props.company}</h3>
-                <h4 className="position">{this.props.position}</h4>
-                <p className="jobDescription">{this.props.description}</p>
-            </div>
+            <MuiThemeProvider>
+                <div className="job">
+                    <h4 className="time">{this.props.time}</h4>
+                    <hr className="jobHeader"/>
+                    <h3 className="company">{this.props.company}</h3>
+                    <h4 className="position">{this.props.position}</h4>
+                    <p className="jobDescription">{this.props.description}</p>
+                    <div className="jobButton">
+                        <a href={this.props.jobStudyLink}><RaisedButton label="Read More" labelColor="#f04" buttonStyle={{border: '1px solid #f04'}} /></a>
+                    </div>
+                </div>
+            </MuiThemeProvider>
         );
     }
 }
