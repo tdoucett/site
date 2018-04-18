@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
-import bump from '../images/bump.png';
+import bump from '../images/bumpMacbook.png';
 
 class Projects extends Component {
     constructor() {

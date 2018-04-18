@@ -6,6 +6,7 @@ import RbcStudy from './components/RbcStudy';
 import SgfStudy from './components/SgfStudy';
 import BumpCaseStudy from './components/BumpCaseStudy';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Resume from './components/Resume';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
               <Route exact path="/rbc" render={()=><RbcStudy />} />
               <Route exact path="/sgf" render={()=><SgfStudy />} />
               <Route exact path="/bump" render={()=><BumpCaseStudy />} />
+              <Route exact path="/resume" render={()=><Resume />} />
           </div>
         </Router>
     );

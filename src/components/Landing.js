@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { FacebookBox, Linkedin, GithubCircle } from 'mdi-material-ui';
+import { FacebookBox, Linkedin, GithubCircle, Email } from 'mdi-material-ui';
 import Resume from '../Thomas-Doucette-Resume.pdf';
 
 class Landing extends Component {
@@ -22,6 +22,7 @@ class Landing extends Component {
                         <a href="https://www.facebook.com/thomas.doucette.355" target="_blank"><FacebookBox style={{height: '1.5rem'}}/></a>
                         <a href="https://www.linkedin.com/in/tdoucett" target="_blank"><Linkedin style={{height: '1.5rem'}}/></a>
                         <a href="https://www.github.com/tdoucett" target="_blank"><GithubCircle style={{height: '1.5rem'}}/></a>
+                        <a href="mailto:tdoucett@edu.uwaterloo.ca"><Email style={{height: '1.5rem'}}/></a>
                     </div>
                 </div>
             </MuiThemeProvider>

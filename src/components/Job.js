@@ -9,7 +9,7 @@ class Job extends Component {
                 <div className="job">
                     <h4 className="time">{this.props.time}</h4>
                     <hr className="jobHeader"/>
-                    <h3 className="company">{this.props.company}</h3>
+                    <h2 className="company">{this.props.company}</h2>
                     <h4 className="position">{this.props.position}</h4>
                     <p className="jobDescription">{this.props.description}</p>
                     <div className="jobButton">

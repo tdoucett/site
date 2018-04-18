@@ -50,6 +50,27 @@ body {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
+/* Image Classes */
+
+.careMacbook {
+  width:50%;
+  padding-left: 2rem;
+  margin-top: -2rem;
+}
+
+@media (max-width: 768px) {
+  .careMacbook {
+    width:90%;
+    padding-top:1rem;
+    padding-right:5%;
+    padding-left:5%;
+  }
+}
+
+/* End of Image Classes */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 /* Landing Component */
 
 .header {
@@ -76,12 +97,12 @@ body {
 /* Experience Component */
 
 .experience {
-   margin-top: 15rem;
- }
+  margin-top: 5rem;
+}
 
 @media (max-width: 768px) {
   .experience {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -89,7 +110,7 @@ body {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
-/* Experience Component */
+/* Job Component */
 
 .job {
   border: 1px solid black;
@@ -132,6 +153,22 @@ body {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 /* Projects Component */
+
+.projects {
+  margin-top: 15rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    margin-top: 5rem;
+  }
+}
+
+/* End of Projects Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Project Component */
 
 .project {
   border: 1px solid black;
@@ -185,9 +222,26 @@ body {
   margin-left: 1rem;
 }
 
-/* End of Projects Component */
+/* End of Project Component */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
+
+/* End of hitplay Care Component */
+
+.careDescription {
+  margin-top: 15rem;
+}
+
+@media (max-width: 768px) {
+  .careDescription {
+    margin-top: 5rem;
+  }
+}
+
+/* End of hitplay Care Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 
 
 
