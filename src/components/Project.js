@@ -12,7 +12,7 @@ class Job extends Component {
         return (
             <MuiThemeProvider>
                 <div className="project">
-                    <img src={this.props.photo} className={this.props.uuid%1 ? "projectImgLeft" : "projectImgRight" }/>
+                    <img src={this.props.photo} className={this.props.uuid%2 === 0 ? "projectImgLeft" : "projectImgRight" }/>
                     <h2 className="projectName">{this.props.name}</h2>
                     <h4 className="oneLiner">{this.props.oneLiner}</h4>
                     <p className="projectDescription">{this.props.description}</p>

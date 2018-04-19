@@ -45,6 +45,9 @@ class HitplayStudy extends Component {
                 <p>I also pushed the development of various integrations such as the Google Calendar and Office 365 integrations.
                 The goal of this feature was to ensure that the corporations employees are informed when a meeting room that they have
                 booked is experiencing technical issues, as well as give them available alternatives to that room.</p>
+                <div className="footerLink">
+                    <a href="/"><h1 className="header">Back to homepage</h1></a>
+                </div>
             </div>
         );
     }
