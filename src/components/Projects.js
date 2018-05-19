@@ -6,7 +6,7 @@ class Projects extends Component {
     constructor() {
         super();
         this.state = { projects: [{uuid: 2, name: 'bump Music', oneLiner: 'Real-time Playlist for Bars & Clubs',
-            description: 'Bump Music is a react app I launched that lets users vote on upcoming music at your favorite restaurant/bar!' +
+            description: 'Bump Music is a react app I am launching that lets users vote on upcoming music at your favorite restaurant/bar!' +
             ' It also allows bars to build playlists and stream music directly from the app! Check it out live or read my case study below.',
             photo: bump,
             productionLink: 'https://www.bumpmusic.co',

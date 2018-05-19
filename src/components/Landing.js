@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import RaisedButton from 'material-ui/RaisedButton'
+import RaisedButton from 'material-ui/RaisedButton';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { FacebookBox, Linkedin, GithubCircle, Email } from 'mdi-material-ui';
 import Resume from '../Thomas-Doucette-Resume.pdf';
+import NavigationArrowDownward from 'material-ui/svg-icons/navigation/arrow-downward';
 
 class Landing extends Component {
 
     openResume = () => {
         window.open(Resume);
+    }
+
+    scrollToAbout = () => {
+        document.querySelector('#about').scrollIntoView({
+            behavior: 'smooth'
+        });
     }
 
     render() {
@@ -23,6 +31,11 @@ class Landing extends Component {
                         <a href="https://www.linkedin.com/in/tdoucett" target="_blank"><Linkedin style={{height: '1.5rem'}}/></a>
                         <a href="https://www.github.com/tdoucett" target="_blank"><GithubCircle style={{height: '1.5rem'}}/></a>
                         <a href="mailto:tdoucett@edu.uwaterloo.ca"><Email style={{height: '1.5rem'}}/></a>
+                    </div>
+                    <div class="actionButton">
+                        <FloatingActionButton backgroundColor="#f04" onClick={this.scrollToAbout} >
+                            <NavigationArrowDownward />
+                        </FloatingActionButton>
                     </div>
                 </div>
             </MuiThemeProvider>
