@@ -13,10 +13,8 @@ class Landing extends Component {
     }
 
     scrollToAbout = () => {
-        document.querySelector('#about').scrollIntoView({
-            behavior: 'smooth',
-            block: "start"
-        });
+        var height = document.querySelector('#about').offsetTop - 100;
+        window.scroll({ top: height, behavior: "smooth" });
     }
 
     render() {

@@ -5,31 +5,23 @@ import logo from '../images/logo.png';
 class NavBar extends Component {
 
     scrollToAbout = () => {
-        document.querySelector('#about').scrollIntoView({
-            behavior: 'smooth',
-            block: "start"
-        });
+        var height = document.querySelector('#about').offsetTop - 100;
+        window.scroll({ top: height, behavior: "smooth" });
     };
 
     scrollToProducts = () => {
-        document.querySelector('#products').scrollIntoView({
-            behavior: 'smooth',
-            block: "start"
-        });
+        var height = document.querySelector('#products').offsetTop - 100;
+        window.scroll({ top: height, behavior: "smooth" });
     };
 
     scrollToWork = () => {
-        document.querySelector('#work').scrollIntoView({
-            behavior: 'smooth',
-            block: "start"
-        });
+        var height = document.querySelector('#work').offsetTop - 100;
+        window.scroll({ top: height, behavior: "smooth" });
     };
 
     scrollToContact = () => {
-        document.querySelector('#contact').scrollIntoView({
-            behavior: 'smooth',
-            block: "start"
-        });
+        var height = document.querySelector('#contact').offsetTop - 100;
+        window.scroll({ top: height, behavior: "smooth" });
     };
 
     render() {
