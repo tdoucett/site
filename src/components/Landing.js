@@ -14,7 +14,8 @@ class Landing extends Component {
 
     scrollToAbout = () => {
         document.querySelector('#about').scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: "start"
         });
     }
 

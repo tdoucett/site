@@ -13,7 +13,7 @@
     text-align: left;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 5vh;
+    margin-top: 12vh;
   }
 }
 
@@ -77,8 +77,8 @@ body {
 }
 
 .aboutPhoto {
-  width:20vw;
-  height: 20vw;
+  width:25vw;
+  height: 25vw;
   float: left;
   padding-right: 2rem;
   border-radius: 50%;
@@ -103,11 +103,26 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  height: 10%;
+  height: 10vh;
   width: 100vw;
-  background-color: transparent;
+  background-color: white;
   border-bottom: 1px solid black;
+  z-index: 1000;
+  opacity: 0.9;
 }
+
+.navLinks {
+  font-style: normal;
+  margin-left: 2rem;
+  cursor:pointer;
+}
+
+.navLinkDiv {
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+}
+
 
 /* End of NavBar Component */
 
@@ -137,6 +152,14 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .actionButton {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
+
+
 /* End of Landing Component */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -151,6 +174,7 @@ body {
 @media (max-width: 768px) {
   .about {
     margin-top: 5rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -162,12 +186,6 @@ body {
 
 .experience {
   margin-top: 5rem;
-}
-
-@media (max-width: 768px) {
-  .experience {
-    margin-top: 2rem;
-  }
 }
 
 /* End of Experience Component */
@@ -223,7 +241,7 @@ body {
 
 @media (max-width: 768px) {
   .projects {
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
 }
 
@@ -326,8 +344,16 @@ body {
 
 /* Portfolio Component */
 
-.portfolioItem {
+.portfolio {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 25vw;
+}
 
+
+.portfolioItemsDiv {
+  border-top: 3px solid #f04;
+  margin-top: 2rem;
 }
 
 .portfolioImage {
@@ -335,6 +361,7 @@ body {
   height: 20vw;
   float: left;
   padding-right: 1rem;
+  padding-top: 1rem;
 }
 
 .portfolioImage:hover {
@@ -343,7 +370,17 @@ body {
 
 
 
-/* End of hitplay Care Component */
+/* End of Portfolio Component */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Contact Component */
+
+.contact {
+  padding-top: 2rem;
+}
+
+/* End of Contact Component */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 

@@ -37,13 +37,15 @@ class Portfolio extends Component {
     render() {
         return (
             <MuiThemeProvider>
-                <div>
+                <div className="portfolio">
                     <h1>Additional Projects</h1>
-                    { this.state.projects.map((project) => {
-                        return (
-                            <PortfolioCard {...project} key={project.uuid} />
-                        );
-                    })}
+                    <div className="portfolioItemsDiv">
+                        { this.state.projects.map((project) => {
+                            return (
+                                <PortfolioCard {...project} key={project.uuid} />
+                            );
+                        })}
+                    </div>
                 </div>
             </MuiThemeProvider>
         );

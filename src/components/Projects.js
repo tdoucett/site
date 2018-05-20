@@ -17,7 +17,7 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects">
-                <h1>My Products</h1>
+                <h1 id="products">My Products</h1>
                 { this.state.projects.map((project) => {
                     return (
                         <Project {...project} key={project.uuid} />
