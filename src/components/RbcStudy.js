@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import rbc from '../images/rbc.png';
 
 class RbcStudy extends Component {
     render() {
         return (
             <div>
                 <div style={{float:'left'}}>
-                    <h1 className="header">hitplay Care</h1>
-                    <p>A cloud based platform built for IT professionals.</p>
+                    <h1 className="header">RBC</h1>
+                    <p>Identifying fraud through machine learning.</p>
                 </div>
+                <img src={rbc} alt="" className="rbc"/>
                 <h2>What project did I manage?</h2>
                 <p>While working at RBC, I managed the execution of an internal initiative to explore
                     the use of customer data in online and mobile banking to create a digital fingerprint using machine learning
@@ -21,26 +23,17 @@ class RbcStudy extends Component {
                 changes or speak to concerns regarding the architecture of our solution.  Overall, my duties throughout the term included
                 but were not limited to:</p>
                 <ul>
-                    <li>Creation and maintenance of the product roadmap.</li>
-                    <li>Design of wireframes using Adobe XD.</li>
-                    <li>Creation of in-depth user guides using Adobe InDesign.</li>
+                    <li>Organizing weekly meetings with business executives to ensure progress and allow for questions.</li>
+                    <li>Architecture the solution according to AWS best practices.</li>
+                    <li>Creation of a front-end dashboard for testing and showing the results of the model.</li>
                     <li>Clear communication of business objectives to a technical development team.</li>
-                    <li>User testing.</li>
-                    <li>Interfacing with clients, both french and english.</li>
                 </ul>
-                <h2>What was my impact on the product?</h2>
-                <p>Although I did not have any prior experience in the AV industry, what I did have was a fresh mindset and
-                    an eagerness to solve the problem at hand.  During my co-op term with hitplay, I focused on building out some
-                    of the key features that would allow hitplay Care to make an impact on the market.  Some of the major developments I
-                    pushed are outlined below.</p>
-                <h3>Intelligent Troubleshooting</h3>
-                <p>During my term, I pushed the development of an intelligent troubleshooting tool that could guide IT professionals through a question and answer process
-                    while leveraging any and all data available to ensure they determine a root cause.  Furthermore, the platform would
-                    provide them with actionable next steps to resolve the root cause.</p>
-                <h3>Integrations</h3>
-                <p>I also pushed the development of various integrations such as the Google Calendar and Office 365 integrations.
-                    The goal of this feature was to ensure that the corporations employees are informed when a meeting room that they have
-                    booked is experiencing technical issues, as well as give them available alternatives to that room.</p>
+                <h2>What was my impact on the project?</h2>
+                <p>By keeping an open channel of communication between the business executives and the development team, I was able
+                to ensure satisfaction of the BU with the resulting model and architecture.  Furthermore, I was able to ensure that all
+                technical details were clearly explained to the Business Unit ensuring that they understood the inner workings of the model.</p>
+                <h2>What tools did I work with?</h2>
+                <p>All major AWS Services. JIRA. Asana. Flask, SQL, Tensorflow + Keras.</p>
                 <div className="footerLink">
                     <a href="/"><h1 className="header">Back to homepage</h1></a>
                 </div>

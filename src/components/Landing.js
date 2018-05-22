@@ -23,7 +23,7 @@ class Landing extends Component {
                 <div className="landing">
                     <h1 className="header">Hi, I'm Thomas Doucette</h1>
                     <p className="description">Product Manager pursing a degree in Systems Design Engineering at the University of Waterloo.  I
-                    strive to build innovative products that give a positive user experience.  You can view my resume or continue reading below.</p>
+                    strive to build innovative products with a strong focus on user experience.  Looking for a PM this Fall 2018? You can view my resume or continue reading below.</p>
                     <RaisedButton label="View Resume" labelColor="white" backgroundColor="#f04" onClick={this.openResume} />
                     <div class="socialIcons">
                         <a href="https://www.facebook.com/thomas.doucette.355" target="_blank"><FacebookBox style={{height: '1.5rem'}}/></a>

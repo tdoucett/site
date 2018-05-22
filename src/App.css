@@ -76,6 +76,21 @@ body {
   }
 }
 
+.rbc {
+  width:30%;
+  padding-left: 5rem;
+  margin-top: -2rem;
+}
+
+@media (max-width: 768px) {
+  .rbc {
+    width:90%;
+    padding-top:2rem;
+    padding-right:5%;
+    padding-left:5%;
+  }
+}
+
 .aboutPhoto {
   width:25vw;
   height: 25vw;
