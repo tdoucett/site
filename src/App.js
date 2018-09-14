@@ -19,7 +19,7 @@ class App extends Component {
               <Route exact path="/rbc" render={()=><RbcStudy />} />
               <Route exact path="/sgf" render={()=><SgfStudy />} />
               <Route exact path="/itap" render={()=><ItapStudy />} />
-              <Route exact path="/bump" render={()=><BumpCaseStudy />} />
+              {/*<Route exact path="/bump" render={()=><BumpCaseStudy />} />*/}
               <Route exact path="/resume" render={()=><Resume />} />
           </div>
         </Router>
